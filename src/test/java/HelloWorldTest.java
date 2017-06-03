@@ -9,6 +9,6 @@ public class HelloWorldTest {
     public void testHelloWorld() {
         HelloWorld helloWorld = new HelloWorld();
         int result = helloWorld.multiply(20, 10);
-        Assert.assertEquals(result, 2000);
+        Assert.assertEquals(result, 2);
     }
 }
